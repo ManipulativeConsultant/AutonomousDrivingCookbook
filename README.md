@@ -1,10 +1,9 @@
 # ASRN with the Autonomous Driving Cookbook
 Driving is a very suitable example for the problems with variance differences. There is a strategy which will give you low reward with low variance - like "go left till you crash". On the other hand, there is the strategy of actually driving, which will sometimes give you high reward when you'll reach the target, but with high variance - there are many dangers waiting along the road.   
-We trained using AirSim Neighborhood driving simulation. It is great realistic simulation,  and they already implemented a DQN agent. So all is left to do is to plug in the ASRN and look at the mean driving time (green) compared to without ASRN (red) or uniform reward noising (cyan):   
+We trained using AirSim Neighborhood driving simulation. It is a great realistic driving simulator, and they already implemented a DQN agent. So all is left to do is to plug in the ASRN and look at the mean driving time (green) compared to without ASRN (red) or uniform reward noising (cyan):   
  ![](images/fig7.png)
  
- You can see a test drive here:
- https://youtu.be/2Gms-1kYhG4
+ ][ou can see a test drive here](https://youtu.be/aoft3T_77sQ)
  It's not perfect, but it is a good acheivement for only 2500 games experience.
  
 Below is the original Readme. You'll need it to set the simulator up. 
