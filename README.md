@@ -3,7 +3,7 @@ Driving is a very suitable example for the problems with variance differences. T
 We trained using AirSim Neighborhood driving simulation. It is a great realistic driving simulator, and they already implemented a DQN agent. So all is left to do is to plug in the ASRN and look at the mean driving time (green) compared to without ASRN (red) or uniform reward noising (cyan):   
  ![](images/fig7.png)
  
- ][ou can see a test drive here](https://youtu.be/aoft3T_77sQ)
+[You can see a test drive here](https://youtu.be/aoft3T_77sQ).  
  It's not perfect, but it is a good acheivement for only 2500 games experience.
  
 Below is the original Readme. You'll need it to set the simulator up. 
